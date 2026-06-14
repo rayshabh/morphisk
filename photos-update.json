@@ -1,6 +1,6 @@
 {
-  "version": "v7.80.0.929302933 (patches 1.0.4.mpp)",
-  "versionCode": 1,
-  "zipUrl": "https://github.com/rayshabh/morphisk/releases/download/1/photos-de-vanced-module-v7.80.0.929302933-arm64-v8a.zip",
+  "version": "v7.78.0.920664585 (patches 1.0.4.mpp)",
+  "versionCode": 2,
+  "zipUrl": "https://github.com/rayshabh/morphisk/releases/download/2/photos-de-vanced-module-v7.78.0.920664585-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/rayshabh/morphisk/update/build.md"
 }
