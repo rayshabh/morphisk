@@ -3,7 +3,6 @@ parallel-jobs = 1
 patches-version = "latest"
 cli-version = "latest"
 cli-source = "MorpheApp/morphe-cli"
-dpi = "nodpi"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -11,7 +10,7 @@ dpi = "nodpi"
 # you can use rvmm-config-gen to generate a config
 
 [YouTube]
-enabled = true
+enabled = false
 app-name = "YouTube"
 build-mode = "both"
 arch = "arm64-v8a"
@@ -22,7 +21,7 @@ rv-brand = "Morphe"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YT-Music]
-enabled = true
+enabled = false
 app-name = "YT-Music"
 build-mode = "both"
 arch = "arm64-v8a"
@@ -37,7 +36,7 @@ enabled = true
 app-name = "Photos"
 build-mode = "both"
 arch = "arm64-v8a"
-version = "auto"
+version = "7.78.0.920664585"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "De-Vanced"
 # apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
@@ -52,9 +51,10 @@ include-stock = "split"
 patches-source = "crimera/piko"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
 [Pinterest]
-enabled = true
+enabled = false
 app-name = "Pinterest"
 build-mode = "apk"
 arch = "arm64-v8a"
